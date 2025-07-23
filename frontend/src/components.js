@@ -855,6 +855,26 @@ const MenuPage = () => {
       title: "Signature Waffles",
       items: [
         { name: "Classic Belgian", description: "Traditional crispy waffle with powdered sugar, maple syrup, and butter", price: "$12.95", popular: true },
+        { 
+          name: "Caramel Milk Melt", 
+          description: "Decadent waffle topped with vanilla ice cream and rich caramel sauce drizzle", 
+          price: "$17.95", 
+          popular: true,
+          image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+        },
+        { 
+          name: "Tropical Fruit Burst", 
+          description: "Multi-layered waffle topped with fresh tropical fruits, mango, kiwi, strawberries, and passion fruit glaze", 
+          price: "$18.95", 
+          popular: true,
+          image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+        },
+        { 
+          name: "Supreme Delight", 
+          description: "Gourmet waffle with whipped cream, fresh strawberry, orange slice, chocolate drizzle, and white chocolate pearls", 
+          price: "$19.95",
+          image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
+        },
         { name: "Strawberry Dream", description: "Fresh strawberries, whipped cream, and strawberry compote", price: "$15.95", popular: true },
         { name: "Chocolate Paradise", description: "Belgian chocolate chips, chocolate sauce, and vanilla ice cream", price: "$16.95" },
         { name: "Berry Bliss", description: "Mixed berries, honey drizzle, and Greek yogurt", price: "$14.95" },
